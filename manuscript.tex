@@ -1,0 +1,52 @@
+\documentclass[a4j,12pt,titlepage]{ujarticle}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage[bookmarks=true,dvipdfmx]{hyperref}
+\usepackage{pxjahyper}
+\usepackage{wrapfig}
+\usepackage[dvipdfmx]{color}
+\usepackage{url}
+\usepackage{here}
+\usepackage{cite}
+\usepackage{booktabs} % For formal tables
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{latexsym}
+\usepackage{relsize}
+\usepackage{xspace}
+\usepackage{color}
+\usepackage{fancyvrb}
+
+\def\tightlist{\itemsep1pt\parskip0pt\parsep0pt}
+\include{command}
+
+
+\title{
+	\fontsize{20pt}{0pt}
+	title
+	\vspace*{90mm}
+	}
+
+\author{
+	\fontsize{16pt}{0pt} 20xx年x月\\
+	\fontsize{16pt}{0pt} (所属) (名前)\\
+}
+
+\date{}
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+
+%目次出力
+\newpage
+\pagenumbering{roman}
+\tableofcontents
+
+\newpage
+\pagenumbering{arabic}
+
+% 本文
+\input{description}
+
+% 参考文献
+% \input{chapters/bibliography.tex}
+
+\end{document}
