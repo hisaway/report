@@ -34,8 +34,8 @@ $ brew install imagemagick
 これらが準備できたあとは，下記のようにインストールしてください。
 
 ```bash
-$ git clone git@github.com:zeam-vm/GPU-SWoPP-2018.git
-$ cd GPU-SWoPP-2018
+$ git clone https://github.com/hisaway/report.git
+$ cd report
 ```
 
 ## コンパイル方法
